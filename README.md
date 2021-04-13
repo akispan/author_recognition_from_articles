@@ -22,7 +22,7 @@ Data are json formatted. The articles are technically a dictionary with texts gr
 
 ## Pipeline
 
-After data collection, we manipulated them for better use in our RNN model. We built a Long Short Term Memory network (LSTM) witch is capable of learning long-term dependencies. We used different hyperparameters and we focused on the numbers of features that are created in the initialization phase. We tried the numbers of features to be 40, 50, 60, 70, 80, 90, 100, 150 and after we got the best learning curves we we created a confusion matrx to visualize the results.
+After data collection, we manipulated them for better use in our RNN model. We built a Long Short Term Memory network (LSTM) witch is capable of learning long-term dependencies. We used different hyperparameters and we focused on the numbers of features that are created in the initialization phase. We tried different numbers of features and after we got the best learning curves we we created a confusion matrx to visualize the results.
 
 ## Authors
 Akis Panagiotou, Dimitris Pappas
